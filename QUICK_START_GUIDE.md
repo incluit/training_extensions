@@ -41,6 +41,10 @@
    python3 setup.py install
    cd ..
    ```
+ 5. One can use Jupyter notebooks or OTE CLI tools to start working with models:
+   ```
+   pip3 install notebook; cd ote_cli/notebooks/; jupyter notebook
+   ```
 
 ## OTE CLI commands
 
