@@ -37,6 +37,9 @@
    ./external/mmdetection/init_venv.sh det_venv
    source det_venv/bin/activate
    pip3 install -e ote_cli/
+   cd ote_sdk
+   python3 setup.py install
+   cd ..
    ```
 
 ## OTE CLI commands
