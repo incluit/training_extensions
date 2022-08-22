@@ -9,7 +9,7 @@
 
 1. Clone repository in the working directory by running the following:
     ```
-    git clone https://github.com/openvinotoolkit/training_extensions.git
+    git clone https://github.com/incluit/training_extensions.git
     cd training_extensions
     git submodule update --init --recursive
     ```
