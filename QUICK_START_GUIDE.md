@@ -35,15 +35,15 @@
    ```
    ./external/mmdetection/init_venv.sh det_venv
    source det_venv/bin/activate
-   pip3 install -e ote_cli/
+   pip install -e ote_cli/
    cd ote_sdk
    python3 setup.py install
    cd ..
    ```
  5. One can use Jupyter notebooks or OTE CLI tools to start working with models:
    ```
-   pip3 install ipywidgets
-   pip3 install notebook; cd ote_cli/notebooks/; jupyter notebook
+   pip install ipywidgets
+   pip install notebook; cd ote_cli/notebooks/; jupyter notebook
    ```
 
 ## OTE CLI commands
